@@ -1,0 +1,3 @@
+Use Schema.describe() to get all the fields which are applied for Joi validation.
+This should be handy while diagnosing the issue.
+console.log(JSON.stringify(schema.describe()))
